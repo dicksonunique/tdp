@@ -1,0 +1,4 @@
+##Exercise 2.2 Finding mean
+x<-1:2
+cal<-x-mean(x)^2
+cal
