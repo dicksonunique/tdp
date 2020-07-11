@@ -1,0 +1,23 @@
+#question a
+Title<-c("Rich also cry","Acrimomny","James Bon")
+Director<-c("uwem","Onikeh","rstudio")
+Year<-c(2009,2019,2000)
+Country<-c("USA","Nigeria","UK")
+Film<-cbind(Title,Director,Year,Country)
+Film<-as.data.frame(Film)
+Film
+
+
+#question b
+Title<-c("Commando")
+Director<-c("Buhari")
+Year<-c(2020)
+Country<-c("Liberia")
+movie<-cbind(Title,Director,Year,Country)
+movie<-as.data.frame(movie)
+#question c
+combine_films<-rbind(Film,movie)
+combine_films
+#question d
+sort(combine_films$Title,decreasing = FALSE)
+
