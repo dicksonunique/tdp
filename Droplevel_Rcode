@@ -1,0 +1,18 @@
+ #queston a
+repetiton<- rep(1:3,50)
+repetiton
+Str_repetiton<-rep(c("yes","No","Maybe"),50)
+Str_repetiton
+
+#queston b
+str_rep<-rep(c("Yes","No"),each=50)
+Str_rep=as.factor(str_rep)
+Str_rep
+
+
+#queston c
+x<-rep(c("Yes","No","Maybe"),50)
+x=as.factor(x)
+x
+droplevels(x,exclude="Maybe")
+
